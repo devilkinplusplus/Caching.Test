@@ -7,9 +7,9 @@ Inmemory caching is a caching strategy where data is stored in the server's memo
 # Methods
 The following methods have been implemented for Inmemory caching:
 
-* Set() - This test checks if data is correctly added to the inmemory cache.
-* Get() - This test checks if data is correctly retrieved from the inmemory cache.
-* Remove() - This test checks if data is correctly deleted from the inmemory cache.
+* Set() - This method checks if data is correctly added to the inmemory cache.
+* Get() - This method checks if data is correctly retrieved from the inmemory cache.
+* Remove() - This method checks if data is correctly deleted from the inmemory cache.
 
 
 # Distributed Caching
@@ -18,11 +18,11 @@ Distributed caching is a caching strategy where data is stored in a distributed 
 # Methods
 The following methods have been implemented for Distributed caching:
 
-* Set() / SetAsync() - This test checks if data is correctly added to the distributed cache.
-* Get() / GetAsync() - This test checks if data is correctly retrieved from the distributed cache.
-* RemoveAsync() - This test checks if data is correctly deleted from the distributed cache.
-* SetStringAsync() - This test checks if string data is correctly added to the distributed cache.
-* GetStringAsync() - This test checks if string data is correctly retrieved from the distributed cache.
+* Set() / SetAsync() - This method checks if data is correctly added to the distributed cache.
+* Get() / GetAsync() - This method checks if data is correctly retrieved from the distributed cache.
+* RemoveAsync() - This method checks if data is correctly deleted from the distributed cache.
+* SetStringAsync() - This method checks if string data is correctly added to the distributed cache.
+* GetStringAsync() - This method checks if string data is correctly retrieved from the distributed cache.
 
 
 # Sliding Expiration
