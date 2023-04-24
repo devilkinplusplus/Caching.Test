@@ -4,5 +4,6 @@
     {
         object Get(string key);
         void Set(string key,object value);
+        void Remove(object key);
     }
 }

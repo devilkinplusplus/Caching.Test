@@ -11,13 +11,13 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //For Distributed Cache
-builder.Services.AddStackExchangeRedisCache(options => options.Configuration =builder.Configuration.GetConnectionString("Redis"));
+builder.Services.AddStackExchangeRedisCache(options => options.Configuration = builder.Configuration.GetConnectionString("Redis"));
 
 //For In-Memory cache
 builder.Services.AddMemoryCache();
 
 builder.Services.AddSingleton<IDistributedCacheService, DistributedCache>();
-builder.Services.AddSingleton<IInMemoryCacheService,InMemoryCache>();
+builder.Services.AddSingleton<IInMemoryCacheService, InMemoryCache>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -13,5 +13,6 @@ namespace Caching.Test.Services
 
         public void Set(string key, object value) => _memoryCache.Set(key, value);
 
+        public void Remove(object key) => _memoryCache.Remove(key);
     }
 }

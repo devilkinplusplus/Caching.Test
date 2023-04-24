@@ -8,5 +8,6 @@ namespace Caching.Test.Interfaces
         Task<string> GetStringAsync(string key);
         Task SetAsync(string key, byte[] value);
         Task<byte[]> GetAsync(string key);
+        Task RemoveAsync(string key);
     }
 }
