@@ -4,8 +4,8 @@ This repository contains tests for caching operations using two different cachin
 # Inmemory Caching
 Inmemory caching is a caching strategy where data is stored in the server's memory. This is a fast and efficient way to cache data, but it has a limitation that the data is not shared across multiple servers or instances.
 
-# Tests
-The following tests have been implemented for Inmemory caching:
+# Methods
+The following methods have been implemented for Inmemory caching:
 
 * Set() - This test checks if data is correctly added to the inmemory cache.
 * Get() - This test checks if data is correctly retrieved from the inmemory cache.
@@ -15,8 +15,8 @@ The following tests have been implemented for Inmemory caching:
 # Distributed Caching
 Distributed caching is a caching strategy where data is stored in a distributed system. This allows the data to be shared across multiple servers or instances, making it more scalable.
 
-# Tests
-The following tests have been implemented for Distributed caching:
+# Methods
+The following methods have been implemented for Distributed caching:
 
 * Set() / SetAsync() - This test checks if data is correctly added to the distributed cache.
 * Get() / GetAsync() - This test checks if data is correctly retrieved from the distributed cache.
