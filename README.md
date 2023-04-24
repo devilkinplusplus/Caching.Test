@@ -1,5 +1,5 @@
 # Caching Repository
-This repository contains tests for caching operations using two different caching strategies: Inmemory caching and Distributed caching. The repository also includes tests for sliding and absolute expiration.
+This repository contains tests for caching operations using two different caching strategies: Inmemory caching and Distributed caching.
 
 # Inmemory Caching
 Inmemory caching is a caching strategy where data is stored in the server's memory. This is a fast and efficient way to cache data, but it has a limitation that the data is not shared across multiple servers or instances.
@@ -24,6 +24,12 @@ The following tests have been implemented for Distributed caching:
 * SetStringAsync() - This test checks if string data is correctly added to the distributed cache.
 * GetStringAsync() - This test checks if string data is correctly retrieved from the distributed cache.
 
+
+# Sliding Expiration
+Sliding expiration is a caching strategy where the expiration time of an item is extended each time it is accessed. This is useful when you want to keep an item in cache as long as it is frequently accessed.
+
+# Absolute Expiration
+Absolute expiration is a caching strategy where the expiration time of an item is fixed. This means that the item will be removed from cache when the expiration time is reached, regardless of whether it has been accessed or not.
 
 # Conclusion
 This repository contains tests for both Inmemory and Distributed caching strategies, as well as tests for sliding and absolute expiration. These tests ensure that the caching operations are working correctly and efficiently. You can run these tests to verify the functionality of your caching system.
